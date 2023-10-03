@@ -5,7 +5,8 @@ import joi from "joi";
 export type MathBody = {
   operation: string,
   n1: number,
-  n2: number
+  n2: number,
+  result: number
 }
 
 const mathSchema = joi.object<MathBody>({
