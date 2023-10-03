@@ -1,6 +1,5 @@
 import supertest from "supertest";
 import { faker } from '@faker-js/faker';
-
 import app from "../../src/app";
 import { PacientInput } from "../../src/validator";
 import httpStatus from "http-status";
